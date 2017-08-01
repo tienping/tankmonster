@@ -47,7 +47,7 @@ body, html {
     background: RGBA(255, 255, 255, 0.8);
 }
 
-.logo-container {
+.logo-wrapper .logo-container {
     color: #fff!important;
     background-color: RGBA(205, 205, 205, 0.8) !important;
     padding: 10% !important;
@@ -60,7 +60,7 @@ body, html {
     overflow: hidden;
 }
 
-.contact-form { position: relative; }
+.contact-form { min-height: 80px; position: relative; }
 .contact-form .cover {
     position: absolute;
     bottom: 0;
@@ -69,3 +69,21 @@ body, html {
     height: 80px;
     background: white;
 }
+
+
+@media(min-width: 768px) {
+    .logo-wrapper {
+        width: 20%;
+        min-width: 460px;
+    }
+}
+@media(max-width: 767px) {
+    .logo-wrapper {
+        width: 60%;
+    }
+}
+@media(max-width: 425px) {
+    .logo-wrapper {
+        width: 90%;
+    }
+ }
