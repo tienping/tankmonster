@@ -17,19 +17,19 @@
                 </a>
                 <a href="#home" class="w3-bar-item w3-button">HOME</a>
                 <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-                <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+                <a href="#preview" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PREVIEW</a>
                 <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-                <i class="fa fa-search"></i>
-                </a>
+                <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                    <i class="fa fa-search"></i>
+                </a>-->
             </div>
 
             <!-- Navbar on small screens -->
             <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
                 <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+                <a href="#preview" class="w3-bar-item w3-button" onclick="toggleFunction()">PREVIEW</a>
                 <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-                <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+                <!--<a href="#" class="w3-bar-item w3-button">SEARCH</a>-->
             </div>
         </div>
 
@@ -44,23 +44,23 @@
 
         <!-- Container (About Section) -->
         <div class="w3-content w3-container w3-padding-64" id="about">
-            <h3 class="w3-center">ABOUT ME</h3>
-            <p class="w3-center"><em>I love photography</em></p>
-            <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3 class="w3-center">What we sell?</h3>
+            <p class="w3-center"><em>xxxxxxxxxx</em></p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus voluptatibus nihil ducimus fugiat magni, asperiores, similique at molestias obcaecati error inventore harum soluta laboriosam. Voluptate libero iste delectus, odit?
+            </p>
             <div class="w3-row">
-                <div class="w3-col m6 w3-center w3-padding-large">
+                <!--<div class="w3-col m6 w3-center w3-padding-large">
                     <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
                     <img src="images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-                </div>
+                </div>-->
 
                 <!-- Hide this text on small devices -->
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <!--<div class="w3-col m6 w3-hide-small w3-padding-large">
                     <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
+                </div>-->
             </div>
             <h3 class="w3-padding-8">Why choose us?</h3>
             <div class="">
@@ -93,15 +93,15 @@
             <h2>8 Unit left!!</h2>
         </div>
 
-        <!-- Second Parallax Image with Portfolio Text -->
+        <!-- Second Parallax Image with Preview Text -->
         <div class="bgimg-2 w3-display-container w3-opacity-min">
             <div class="w3-display-middle">
                 <span class="w3-xxlarge w3-text-white w3-wide">GRAB ME NOW</span>
             </div>
         </div>
 
-        <!-- Container (Portfolio Section) -->
-        <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <!-- Container (Preview Section) -->
+        <div class="w3-content w3-container w3-padding-64" id="preview">
             <h3 class="w3-center">Preview</h3>
             <p class="w3-center"><em>Here are some photo of the product.<br> Click on the images to make them bigger</em></p><br>
 
@@ -129,10 +129,12 @@
                     <img src="images/product/tank-img-5.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity">
                 </div>
 
-                <div class="product-listing w3-col m4 w3-padding-large">
-                    <h2>Want more?</h2>
-                    <h2>Find us!</h2>
-                </div>
+                <a href="#contact" class="w3-col m4" style="text-decoration: none;">
+                    <div class="product-listing w3-padding-large">
+                        <h2>Want more?</h2>
+                        <h2>Find us!</h2>
+                    </div>
+                </a>
 
                 <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
             </div>
@@ -147,7 +149,7 @@
             </div>
         </div>
 
-        <!-- Third Parallax Image with Portfolio Text -->
+        <!-- Third Parallax Image with Preview Text -->
         <div class="bgimg-3 w3-display-container w3-opacity-min">
             <div class="w3-display-middle">
                 <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
@@ -156,8 +158,8 @@
 
         <!-- Container (Contact Section) -->
         <div class="w3-content w3-container w3-padding-64" id="contact">
-            <h3 class="w3-center">WHERE I WORK</h3>
-            <p class="w3-center"><em>I'd love your feedback!</em></p>
+            <h3 class="w3-center">Interested?</h3>
+            <p class="w3-center"><em>Reach me now!</em></p>
 
             <div class="w3-row w3-padding-32 w3-section">
                 <div class="w3-col m4 w3-container">
@@ -210,5 +212,11 @@
         To use this code on your website, get a free API key from Google.
         Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
         -->
+
+
+        <script src="lib/jquery/dist/jquery.min.js"></script>
+        <script src="lib/tether/dist/js/tether.js"></script>
+        <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="lib/smooth-scroll.js"></script>
     </body>
 </html>
