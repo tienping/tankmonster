@@ -55,9 +55,18 @@ body, html {
     border: 1vw solid black;
 }
 
+.choose-us .reason { font-size: 1.4rem; display: inline-block; width: 22%; max-width: 100px;}
+.choose-us .rating-star { max-width: 50px; min-width: 10px; width: 10%; }
+
 .product-listing {
     height: 11vw;
+    min-height: 12rem;
     overflow: hidden;
+    margin: 8px 0;
+}
+
+.contact-info {
+    font-size: 1.2rem;
 }
 
 .contact-form { min-height: 80px; position: relative; }
@@ -71,18 +80,22 @@ body, html {
 }
 
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
     .logo-wrapper {
         width: 20%;
         min-width: 460px;
     }
 }
-@media(max-width: 767px) {
+@media(max-width: 768px) {
+    html { font-size: 13px; }
+    .product-listing { margin: 5px 0; }
     .logo-wrapper {
         width: 60%;
     }
 }
 @media(max-width: 425px) {
+    html { font-size: 12px; }
+    .contact-info-item { display: block; padding-top: 1rem; }
     .logo-wrapper {
         width: 90%;
     }
