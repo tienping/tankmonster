@@ -59,3 +59,13 @@ body, html {
     height: 11vw;
     overflow: hidden;
 }
+
+.contact-form { position: relative; }
+.contact-form .cover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: white;
+}
